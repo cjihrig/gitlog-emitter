@@ -1,0 +1,36 @@
+{
+  "name": "gitlog-emitter",
+  "version": "1.0.0",
+  "description": "git log Commits Event Emitter",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/gitlog-emitter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/gitlog-emitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/gitlog-emitter/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f",
+    "test": "npm run lint && lab -v -a code -t 97 -m 20000"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "belly-button": "3.x.x",
+    "code": "4.x.x",
+    "lab": "11.x.x"
+  },
+  "keywords": [
+    "git",
+    "log",
+    "commit",
+    "commits",
+    "emitter",
+    "git log"
+  ]
+}
